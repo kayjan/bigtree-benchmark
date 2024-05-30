@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716996352446,
+  "lastUpdate": 1717028675814,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -5732,6 +5732,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0009519422213288479",
             "extra": "mean: 12.372730699999577 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7c539455fbcbc7730af3429d82820014eee5ac58",
+          "message": "Merge pull request #240 from kayjan/polars-fix\n\nfix: polars error handling and python 3.7 support",
+          "timestamp": "2024-05-30T08:23:24+08:00",
+          "tree_id": "f7fdd21277ce3335d8ce0a02f6aa350df23b9ced",
+          "url": "https://github.com/kayjan/bigtree/commit/7c539455fbcbc7730af3429d82820014eee5ac58"
+        },
+        "date": 1717028675584,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 19358.591778733473,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000036795715584932957",
+            "extra": "mean: 51.65664999964292 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 737.7983462842203,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002496666765175414",
+            "extra": "mean: 1.3553838999996515 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.869001077861368,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0008850256660673416",
+            "extra": "mean: 84.25308865000005 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 70.8998306242003,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002749434175610064",
+            "extra": "mean: 14.104406050000762 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 23050.15829728913,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002821709611922961",
+            "extra": "mean: 43.38364999938449 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 429.48362110533026,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002473669814149407",
+            "extra": "mean: 2.32837749999959 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 162.6905185283495,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005288734459182345",
+            "extra": "mean: 6.146639700000378 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 85.72847034699046,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012324178231361732",
+            "extra": "mean: 11.664736299999847 msec\nrounds: 2"
           }
         ]
       }
