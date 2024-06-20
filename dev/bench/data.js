@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718898230200,
+  "lastUpdate": 1718898290949,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -8072,6 +8072,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0029761041132534945",
             "extra": "mean: 10.65007459999947 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "05a77c8d374f2c39b6bc125246d25a45e12b4c42",
+          "message": "Merge pull request #257 from kayjan/modify-docs\n\ndocs: Reorder docs, add glossary section",
+          "timestamp": "2024-06-20T23:43:58+08:00",
+          "tree_id": "8099c1fd5424021e769d8fe903d8ae0f47ab9284",
+          "url": "https://github.com/kayjan/bigtree/commit/05a77c8d374f2c39b6bc125246d25a45e12b4c42"
+        },
+        "date": 1718898290713,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 17597.59405607238,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006105230662413454",
+            "extra": "mean: 56.82595000280344 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 679.0130477450268,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007520717016039684",
+            "extra": "mean: 1.4727257499998814 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.316927750528766,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001017532739245171",
+            "extra": "mean: 88.3632043999995 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 67.24161746161539,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003389341558820686",
+            "extra": "mean: 14.871742199997584 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 22245.55533712709,
+            "unit": "iter/sec",
+            "range": "stddev: 7.933738068097868e-7",
+            "extra": "mean: 44.952800001851756 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1566.6025403979083,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000275925793986073",
+            "extra": "mean: 638.3240000019441 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 115.84562460718566,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003170481898416767",
+            "extra": "mean: 8.632177550001074 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 91.43884727396471,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0034136058573106236",
+            "extra": "mean: 10.936270850001506 msec\nrounds: 2"
           }
         ]
       }
