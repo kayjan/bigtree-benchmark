@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719340823689,
+  "lastUpdate": 1719340888972,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -8852,6 +8852,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0024267245706783604",
             "extra": "mean: 10.149947899999745 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ee73aeee43acfd9b3fb6506030496411dc56d34f",
+          "message": "Merge pull request #262 from kayjan/fix-playground\n\ndocs: Read whl files from source",
+          "timestamp": "2024-06-26T02:40:37+08:00",
+          "tree_id": "10015345a0dd1b45433de054bff3c2f0f4aaec55",
+          "url": "https://github.com/kayjan/bigtree/commit/ee73aeee43acfd9b3fb6506030496411dc56d34f"
+        },
+        "date": 1719340888409,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 18018.27774100966,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006047884298970434",
+            "extra": "mean: 55.499199999786704 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 680.0997937630398,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000014345994508750041",
+            "extra": "mean: 1.4703724500002124 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 12.319527431304962,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0034333720374257392",
+            "extra": "mean: 81.17194475000034 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 68.55333041384796,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002702265203558052",
+            "extra": "mean: 14.587183350000998 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 22196.080172495702,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000024851974942955615",
+            "extra": "mean: 45.05299999948419 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1588.6109305210289,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000035650273296959376",
+            "extra": "mean: 629.480749998379 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 124.2260121604701,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002527577160272326",
+            "extra": "mean: 8.049843850000116 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 98.08161050082977,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0024254372827849733",
+            "extra": "mean: 10.195591149999927 msec\nrounds: 2"
           }
         ]
       }
