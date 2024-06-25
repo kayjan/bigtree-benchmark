@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719339328912,
+  "lastUpdate": 1719339881344,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -8620,6 +8620,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0030457734352173456",
             "extra": "mean: 10.71194984999977 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8f737456563b8fa7a58fae1250ac7339a8fa7642",
+          "message": "Merge pull request #261 from kayjan/fix-playground\n\ndocs: Fix playground not reading from _static in rtd",
+          "timestamp": "2024-06-26T02:23:51+08:00",
+          "tree_id": "7b07071f749621d0fb72d5813f1a5810fc744efa",
+          "url": "https://github.com/kayjan/bigtree/commit/8f737456563b8fa7a58fae1250ac7339a8fa7642"
+        },
+        "date": 1719339880655,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 17910.891523536025,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004326432842186754",
+            "extra": "mean: 55.831950000140296 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 685.9258879713616,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004701199436073351",
+            "extra": "mean: 1.457883449999997 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.38964399444435,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0010615925627797931",
+            "extra": "mean: 87.79905680000013 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 69.27504770972163,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0026469573617434925",
+            "extra": "mean: 14.435212000000774 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 22585.82897387365,
+            "unit": "iter/sec",
+            "range": "stddev: 8.50861591118308e-7",
+            "extra": "mean: 44.27554999892891 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1595.594499763468,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000033023795870663676",
+            "extra": "mean: 626.725649999571 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 118.16353914168593,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003111549144398656",
+            "extra": "mean: 8.462847399999873 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 97.79407374758395,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0025315482012425064",
+            "extra": "mean: 10.225568500000293 msec\nrounds: 2"
           }
         ]
       }
