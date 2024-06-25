@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719339295745,
+  "lastUpdate": 1719339328912,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -8540,6 +8540,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0023961725372765594",
             "extra": "mean: 10.072082749999822 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "66b879409eb9fc9269984a27969da4eeeb58f721",
+          "message": "Add playground (#260)\n\n* feat: initial commit to add playground WIP\r\n\r\n* feat: add playground.py WIP\r\n\r\n* feat: reset playground.js WIP\r\n\r\n* feat: change default code\r\n\r\n* feat: rename playground python file\r\n\r\n* docs: Fix css and add examples to md\r\n\r\n* docs: Fix playground.py\r\n\r\n* docs: Fix playground-config.js\r\n\r\n* docs: Shift css js to _static folder\r\n\r\n* docs: Add playground to docs\r\n\r\n* docs: Fix mkdocs integration with github and rtd",
+          "timestamp": "2024-06-26T02:14:18+08:00",
+          "tree_id": "fb7c531624108efe3e9a8541e64a1bf39a808eba",
+          "url": "https://github.com/kayjan/bigtree/commit/66b879409eb9fc9269984a27969da4eeeb58f721"
+        },
+        "date": 1719339328570,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 16273.988876514273,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009276180310053984",
+            "extra": "mean: 61.44775000080927 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 651.545829945428,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003413840828736347",
+            "extra": "mean: 1.5348114500000065 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 10.81295167588044,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018640840889438094",
+            "extra": "mean: 92.48168584999945 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 65.13548003982261,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032702301286364256",
+            "extra": "mean: 15.352615800000535 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 21819.506857133634,
+            "unit": "iter/sec",
+            "range": "stddev: 8.71367685952389e-7",
+            "extra": "mean: 45.830550000403036 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1560.1065771198726,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005581441311130478",
+            "extra": "mean: 640.9818500003439 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 108.7263289530864,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0038458632024931",
+            "extra": "mean: 9.197404249999863 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 93.35368574377908,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0030457734352173456",
+            "extra": "mean: 10.71194984999977 msec\nrounds: 2"
           }
         ]
       }
