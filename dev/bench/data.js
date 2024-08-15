@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723744984766,
+  "lastUpdate": 1723745050169,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -10624,6 +10624,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00029635990712398536",
             "extra": "mean: 11.765754700002164 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae55973a6339ab89786475d066f8b2c69d2b07b5",
+          "message": "Merge pull request #278 from kayjan/fix-mermaid-root\n\nFix mermaid root not reading node attr error",
+          "timestamp": "2024-08-16T02:03:13+08:00",
+          "tree_id": "3d79a235ec882e666fd1cdbcb9b492c9caddb2ad",
+          "url": "https://github.com/kayjan/bigtree/commit/ae55973a6339ab89786475d066f8b2c69d2b07b5"
+        },
+        "date": 1723745049638,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 16291.4342081749,
+            "unit": "iter/sec",
+            "range": "stddev: 6.418408243779966e-7",
+            "extra": "mean: 61.38195000033875 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 666.901215823672,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000027692422869299346",
+            "extra": "mean: 1.499472450001349 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 12.31516448258672,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000315327905109791",
+            "extra": "mean: 81.20070190000064 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 66.95084757329252,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001731571571038994",
+            "extra": "mean: 14.936330700000156 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 23122.483262656173,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002385990410967028",
+            "extra": "mean: 43.24794999917003 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1579.4313810073968,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003478053195749187",
+            "extra": "mean: 633.1392500015909 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 162.71883384745232,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000060219617647896736",
+            "extra": "mean: 6.145570100001407 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 86.59041482988026,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007657789663574639",
+            "extra": "mean: 11.548622349998539 msec\nrounds: 2"
           }
         ]
       }
