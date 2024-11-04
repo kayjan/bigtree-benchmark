@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730732384471,
+  "lastUpdate": 1730732532633,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -16620,6 +16620,82 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002922769523623499",
             "extra": "mean: 10.370383149999896 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "kayjan",
+            "username": "kayjan"
+          },
+          "committer": {
+            "name": "kayjan",
+            "username": "kayjan"
+          },
+          "id": "f1dd40b08ed8c4e51a736dc83c3ef9d31bdf7d2f",
+          "message": "More tips and tricks for custom classes",
+          "timestamp": "2024-11-04T14:34:44Z",
+          "url": "https://github.com/kayjan/bigtree/pull/320/commits/f1dd40b08ed8c4e51a736dc83c3ef9d31bdf7d2f"
+        },
+        "date": 1730732532236,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 16041.837111197092,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000034918347058692377",
+            "extra": "mean: 62.33699999995679 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 677.5862170022724,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012741144959029354",
+            "extra": "mean: 1.4758269499992593 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 12.268503702028172,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0026057268138597",
+            "extra": "mean: 81.5095324000012 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 70.9637515063851,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002786713835064834",
+            "extra": "mean: 14.091701450000471 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 11630.036896211912,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006214712002319655",
+            "extra": "mean: 85.98425000059251 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1681.3323684715335,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000020692772848510233",
+            "extra": "mean: 594.7664000004238 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 112.85662057282833,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003785683536375868",
+            "extra": "mean: 8.860800499999755 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 93.50149639796369,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003315158420721725",
+            "extra": "mean: 10.695015999998246 msec\nrounds: 2"
           }
         ]
       }
