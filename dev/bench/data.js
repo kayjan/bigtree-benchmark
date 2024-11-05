@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730820051321,
+  "lastUpdate": 1730820628336,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -16932,6 +16932,82 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.003522295311355244",
             "extra": "mean: 10.820641499999795 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "kayjan",
+            "username": "kayjan"
+          },
+          "committer": {
+            "name": "kayjan",
+            "username": "kayjan"
+          },
+          "id": "82b9f7c28ae71b093e33779eeb758bdaf715312f",
+          "message": "Polars to work with m1 chip",
+          "timestamp": "2024-11-05T15:20:00Z",
+          "url": "https://github.com/kayjan/bigtree/pull/322/commits/82b9f7c28ae71b093e33779eeb758bdaf715312f"
+        },
+        "date": 1730820627976,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 15207.772388098087,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001579853325675665",
+            "extra": "mean: 65.75585000092588 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 699.9888421771215,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000491707913438554",
+            "extra": "mean: 1.4285942000014984 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 12.36538728718816,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003011107454558842",
+            "extra": "mean: 80.8709000999997 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 66.3209356292335,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0042701868803073605",
+            "extra": "mean: 15.078194999999539 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 22681.60023190396,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009663604116119838",
+            "extra": "mean: 44.088600000691265 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1756.0198335413425,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016054364491762777",
+            "extra": "mean: 569.4696500000873 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 104.7811689294958,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004413954134001767",
+            "extra": "mean: 9.543699600000366 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 88.78635485485269,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004193114998877117",
+            "extra": "mean: 11.262991949999446 msec\nrounds: 2"
           }
         ]
       }
