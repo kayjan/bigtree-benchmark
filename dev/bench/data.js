@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738001310783,
+  "lastUpdate": 1738001455345,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -20800,6 +20800,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.003145987436675882",
             "extra": "mean: 10.719476950001194 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b055b70ed8094f81af27ebbdddba50625f1c135c",
+          "message": "Add tips for custom coordinates to docs (#341)\n\n## Description\r\n<!-- Provide a concise description of changes and the reason for the\r\nchange -->\r\n\r\n## Testing\r\n<!-- Describe the tests added (tests for new feature, tests for bugfix)\r\n-->\r\n\r\n## Additional notes\r\n<!-- Any information that might be useful for review -->\r\n\r\n## Checklist\r\nI have read through the [contributing\r\nguidelines](https://bigtree.readthedocs.io/en/stable/home/contributing/)\r\nand ensured that\r\n- [x] I have added a descriptive title for this pull request.\r\n- [x] I have followed the convention and standards, and my code is\r\nchecked for style and correctness.\r\n- [x] I have added test cases, and unit tests pass with 100% code\r\ncoverage.\r\n- [x] I have updated the documentation and code docstrings.\r\n\r\n## Checklist (for reviewer)\r\n- [x] I have added label (breaking / enhancement / bug / documentation)\r\nto this pull request, if applicable.\r\n- [x] I will ensure this change is captured in the *CHANGELOG.md* file.",
+          "timestamp": "2025-01-28T02:09:55+08:00",
+          "tree_id": "91529fdc2c79f6d235e739f2a8621fb6f3307aeb",
+          "url": "https://github.com/kayjan/bigtree/commit/b055b70ed8094f81af27ebbdddba50625f1c135c"
+        },
+        "date": 1738001454847,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 13121.12106861421,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000029703858822199632",
+            "extra": "mean: 76.21299999982512 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 671.4873865293337,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001247894976397351",
+            "extra": "mean: 1.4892312499995342 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.509697770074796,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0026604060377475288",
+            "extra": "mean: 86.88325444999947 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 67.790808195507,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003358986171811159",
+            "extra": "mean: 14.751262400000087 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 22363.784981265733,
+            "unit": "iter/sec",
+            "range": "stddev: 9.770094412709163e-7",
+            "extra": "mean: 44.71514999977444 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1685.1096298636116,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003508225441961125",
+            "extra": "mean: 593.4331999995379 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 116.83612334588311,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0034834057818904315",
+            "extra": "mean: 8.558996749999892 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 94.28734386734719,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002938646121471338",
+            "extra": "mean: 10.605877300000087 msec\nrounds: 2"
           }
         ]
       }
