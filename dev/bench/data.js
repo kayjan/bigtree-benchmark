@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739026472092,
+  "lastUpdate": 1739026919098,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -21032,6 +21032,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002424423291662267",
             "extra": "mean: 10.123356250001336 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa8690656c661ff3f1ba30b055153568bbc80f0c",
+          "message": "Split export and construct module  (#342)\n\n* docs: add tips for custom coordinates\r\n\r\n* docs: update CHANGELOG\r\n\r\n* docs: update highlight\r\n\r\n* docs: update highlight\r\n\r\n* docs: update highlight\r\n\r\n* refactor: split export module\r\n\r\n* refactor: split construct module\r\n\r\n* refactor: split construct tests\r\n\r\n* refactor: split export tests\r\n\r\n* docs: update CHANGELOG\r\n\r\n* fix: lint",
+          "timestamp": "2025-02-08T23:01:01+08:00",
+          "tree_id": "34c9b6d346dd4ae787fd953332fea7e8310b4f83",
+          "url": "https://github.com/kayjan/bigtree/commit/aa8690656c661ff3f1ba30b055153568bbc80f0c"
+        },
+        "date": 1739026918582,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 14950.845358032651,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001793936975077001",
+            "extra": "mean: 66.88585000063085 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 314.94177309250944,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0023588710282222013",
+            "extra": "mean: 3.175190100000691 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.623483349294899,
+            "unit": "iter/sec",
+            "range": "stddev: 0.001428369415867186",
+            "extra": "mean: 86.03272960000083 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 67.23580814548576,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032953091555572188",
+            "extra": "mean: 14.873027149999984 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 22157.03131248411,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000008871644521984583",
+            "extra": "mean: 45.1323999996589 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1705.228272514641,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000008330354279659898",
+            "extra": "mean: 586.4317499998605 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 117.67102079644796,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003617135301274254",
+            "extra": "mean: 8.498269100000755 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 93.11390501554953,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0031572629614061002",
+            "extra": "mean: 10.73953455000094 msec\nrounds: 2"
           }
         ]
       }
