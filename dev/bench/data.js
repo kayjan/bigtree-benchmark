@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739113891887,
+  "lastUpdate": 1739114099700,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -22040,6 +22040,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0026317715365093185",
             "extra": "mean: 10.420681500000484 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a589ef689e825d00c53068d8c9b0dcbdbd1cf9f8",
+          "message": "Add cmap to pillow graph (#347)\n\n* feat: allow cmaps for node background for pillow graph export\r\n\r\n* docs: update CHANGELOG",
+          "timestamp": "2025-02-09T23:13:56+08:00",
+          "tree_id": "dd0f68285f3a1147464b4d51e6c862e3f71c8382",
+          "url": "https://github.com/kayjan/bigtree/commit/a589ef689e825d00c53068d8c9b0dcbdbd1cf9f8"
+        },
+        "date": 1739114098765,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 12410.91291563299,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003675887530929003",
+            "extra": "mean: 80.57425000060903 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 679.3569872528477,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000013911406680747363",
+            "extra": "mean: 1.4719801500000076 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.34069108487377,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002417299897947044",
+            "extra": "mean: 88.17804775000013 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 65.16311255647496,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0037303429555219187",
+            "extra": "mean: 15.346105499999396 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 21978.577480721306,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000019596050233096155",
+            "extra": "mean: 45.49884999960341 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1683.4767431087587,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000035966137895872605",
+            "extra": "mean: 594.0087999988464 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 114.4977071175598,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032992756003336963",
+            "extra": "mean: 8.733799350001448 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 90.68553745643126,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003344909443565861",
+            "extra": "mean: 11.02711664999987 msec\nrounds: 2"
           }
         ]
       }
