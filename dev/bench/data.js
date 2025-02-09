@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739097179117,
+  "lastUpdate": 1739097246250,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -21728,6 +21728,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002399848431877478",
             "extra": "mean: 10.25299090000047 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e730142a8982522b89af14299d73669a96a6f645",
+          "message": "Export to pillow graph (#345)\n\n* feat: plot allow reverse, add method for tree_to_pillow_graph\r\n\r\n* docs: update docs for new export to pillow graph method\r\n\r\n* feat: margins to replace default margins instead\r\n\r\n* test: test for export to pillow graph\r\n\r\n* feat: round up for width and height for py38\r\n\r\n* bump: v0.24.0, add pillow graph export\r\n\r\n* docs: update doc wording",
+          "timestamp": "2025-02-09T10:33:03Z",
+          "tree_id": "79a92e1db0165ca504cab1f8d62f412c6a429cf7",
+          "url": "https://github.com/kayjan/bigtree/commit/e730142a8982522b89af14299d73669a96a6f645"
+        },
+        "date": 1739097245440,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 12446.480135440239,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003520472531520236",
+            "extra": "mean: 80.34399999985453 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 674.6419464364759,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003042206717823047",
+            "extra": "mean: 1.4822677499999768 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.451914500661433,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002617105576182482",
+            "extra": "mean: 87.32164389999966 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 65.9843800389926,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003818743536115718",
+            "extra": "mean: 15.155101849999395 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 21463.90254513805,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001941078825616953",
+            "extra": "mean: 46.58985000034477 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1653.7175073466926,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003764735498026051",
+            "extra": "mean: 604.6981999993761 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 105.77075900414322,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004841792132518896",
+            "extra": "mean: 9.454408850000107 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 89.27389784911827,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0036885670161766362",
+            "extra": "mean: 11.2014824500001 msec\nrounds: 2"
           }
         ]
       }
