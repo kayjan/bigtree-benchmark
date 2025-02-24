@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740423021806,
+  "lastUpdate": 1740423089876,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -22664,6 +22664,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0053161319478393036",
             "extra": "mean: 12.232526250001285 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5bbf9f6dcffd25753a28978343383a9a31a66d8b",
+          "message": "Add vprint (#351)\n\n* fix: image\n\n* refactor: deduplicate checks for style\n\n* refactor: deduplicate checks for style\n\n* refactor: make effective use of class\n\n* feat: add node vshow, vprint and vyield tree WIP\n\n* feat: add node vshow and test cases WIP\n\n* fix: doctest:\n\n* fix: doctest and pytest:\n\n* fix: border for vprint\n\n* test: coverage\n\n* docs: update docs for vshow method\n\n* docs: update CHANGELOG",
+          "timestamp": "2025-02-24T18:50:29Z",
+          "tree_id": "2b320fce9cd65b4aeb2da370fe35242d372dcdbf",
+          "url": "https://github.com/kayjan/bigtree/commit/5bbf9f6dcffd25753a28978343383a9a31a66d8b"
+        },
+        "date": 1740423089379,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 17018.59707162688,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000496678874195018",
+            "extra": "mean: 58.75925000111692 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 665.9254029028631,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000007561092810305621",
+            "extra": "mean: 1.5016697000007184 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.413354003678245,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0038991038176349004",
+            "extra": "mean: 87.6166637500006 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 64.40661016246979,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004293720030382331",
+            "extra": "mean: 15.526356649999684 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 22372.61591798205,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000025163101912226085",
+            "extra": "mean: 44.697500000268064 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1616.6398802913427,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010779255980652778",
+            "extra": "mean: 618.566949999888 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 108.23878567166352,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004512197004597769",
+            "extra": "mean: 9.238832399999808 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 85.04445722387828,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004446820952167083",
+            "extra": "mean: 11.758555850001073 msec\nrounds: 2"
           }
         ]
       }
