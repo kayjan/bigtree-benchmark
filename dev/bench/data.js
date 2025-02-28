@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740744034949,
+  "lastUpdate": 1740744123340,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -23204,6 +23204,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.003439041195332516",
             "extra": "mean: 11.127728150000848 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e12c4a96734839288ccc13505ced502c6561070",
+          "message": "Hprint to support multiline (#353)\n\n* bump: v0.25.0\n\n* test: vprint alias\n\n* feat: vprint to have more parameters like vyield\n\n* test: vprint spacing, add docstring\n\n* test: fix test\n\n* test: fix test\n\n* feat: hprint to be able to handle multiline\n\n* test: hprint strip and border style\n\n* test: fix typo\n\n* bump: v0.25.1, update docs",
+          "timestamp": "2025-02-28T20:01:09+08:00",
+          "tree_id": "6da7b29fe87bf3e8b1e8341a93ff5a4285c65efd",
+          "url": "https://github.com/kayjan/bigtree/commit/6e12c4a96734839288ccc13505ced502c6561070"
+        },
+        "date": 1740744122527,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 16865.468375301058,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005551141786039093",
+            "extra": "mean: 59.2927499994289 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 677.1899960479288,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000864133983911833",
+            "extra": "mean: 1.4766904500007174 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.843116039608415,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002199774194482904",
+            "extra": "mean: 84.43723734999935 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 69.3705643117155,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002964440245480079",
+            "extra": "mean: 14.415336099999365 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 10788.004386332894,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007098623762955041",
+            "extra": "mean: 92.69555000059881 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1694.4181291911423,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001643457580655615",
+            "extra": "mean: 590.173099999447 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 127.5251095505871,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0023483554311480395",
+            "extra": "mean: 7.841592950001086 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 97.63399250078398,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002343652251811809",
+            "extra": "mean: 10.242334399998754 msec\nrounds: 2"
           }
         ]
       }
