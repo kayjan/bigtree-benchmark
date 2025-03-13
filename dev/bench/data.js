@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741890696432,
+  "lastUpdate": 1741890763221,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -23748,6 +23748,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.002881143985892719",
             "extra": "mean: 10.677666050000312 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ea4efdf672c644ee551934c233f7bb9e1c1625a9",
+          "message": "Misc fix docstring (#356)\n\n* feat: add spacing to hprint + tidy docstring\n\n* fix: docstring return type",
+          "timestamp": "2025-03-13T18:31:42Z",
+          "tree_id": "452d493ae14cba8eb5ce3c7a58dce0abacbb7f60",
+          "url": "https://github.com/kayjan/bigtree/commit/ea4efdf672c644ee551934c233f7bb9e1c1625a9"
+        },
+        "date": 1741890762684,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 16466.00100114268,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004179708183250305",
+            "extra": "mean: 60.73119999996379 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 649.1683131471286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006805160306814049",
+            "extra": "mean: 1.5404325499993377 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.541091744392311,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004058043249401228",
+            "extra": "mean: 86.64691540000008 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 67.21545848000123,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0035590955524108874",
+            "extra": "mean: 14.877530000000405 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 10678.495592221494,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006700664066635787",
+            "extra": "mean: 93.64614999967102 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1717.9401656901614,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000036725004890914948",
+            "extra": "mean: 582.0924500000046 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 119.35791338878468,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0031501817112575188",
+            "extra": "mean: 8.378162549999502 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 83.23471441601396,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003289147002800993",
+            "extra": "mean: 12.014217950000017 msec\nrounds: 2"
           }
         ]
       }
