@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743319368306,
+  "lastUpdate": 1743319483817,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -25892,6 +25892,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0029275455349556745",
             "extra": "mean: 11.155134299998792 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "63a85ca2d4814bb9ece6a4161bc7cac3155aacfa",
+          "message": "Deduplicate docstring (#360)\n\n* bump: v0.25.2, update docs\n\n* refactor: abstract common function checking\n\n* refactor: abstract yield to classes\n\n* refactor: clean up with TypeVar and mypy\n\n* refactor: docstring cleanup for functions not in mkdocs\n\n* docs: deduplicate docstring with default and type hint information\n\n* fix: coverage for pytest",
+          "timestamp": "2025-03-30T15:23:50+08:00",
+          "tree_id": "33cdbd6a5bf75d7ed0c5d0f7017fecfa47550669",
+          "url": "https://github.com/kayjan/bigtree/commit/63a85ca2d4814bb9ece6a4161bc7cac3155aacfa"
+        },
+        "date": 1743319482984,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 17573.904860180817,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004667823997259254",
+            "extra": "mean: 56.902549999904295 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 665.3895401630596,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000029400439303664995",
+            "extra": "mean: 1.5028790499997058 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.85071866330986,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0023152339131206753",
+            "extra": "mean: 84.38306809999858 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 67.65738297203723,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0036286511716019506",
+            "extra": "mean: 14.780352949999555 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 22072.886879487134,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003567707264995193",
+            "extra": "mean: 45.304450000571705 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1644.2520852204623,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002118484845479234",
+            "extra": "mean: 608.1792499998073 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 113.38950887721738,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0038290275557212347",
+            "extra": "mean: 8.819158049999487 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 91.64471512261589,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003301264408867726",
+            "extra": "mean: 10.911703949999207 msec\nrounds: 2"
           }
         ]
       }
