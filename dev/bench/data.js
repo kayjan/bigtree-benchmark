@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743707713252,
+  "lastUpdate": 1743708158270,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -27656,6 +27656,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.004344559240183559",
             "extra": "mean: 11.857528399998783 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "52a30e2b5d2d5dec5e4d5a59647b790ddfc6e685",
+          "message": "Clean documentation (#364)\n\n* docs: clean docs for binarytree and dag\n\n* docs: fix typo\n\n* fix: remove redundant copy\n\n* fix: remove redundant copy\n\n* docs: remove trailing fullstops\n\n* docs: clean node\n\n* docs: clean tree construct\n\n* docs: clean tree export\n\n* docs: clean tree modify + docsphinx\n\n* docs: clean tree modify + docsphinx\n\n* docs: clean utils\n\n* docs: clean up\n\n* docs: clean up\n\n* docs: clean up\n\n* docs: clean up\n\n* docs: clean up\n\n* docs: clean up workflows\n\n* bump: v0.25.4\n\n* docs: fix coverage error\n\n* docs: fix coverage error",
+          "timestamp": "2025-04-04T03:21:43+08:00",
+          "tree_id": "083f5109a614f522e316f1f0563c8f106eeffa2d",
+          "url": "https://github.com/kayjan/bigtree/commit/52a30e2b5d2d5dec5e4d5a59647b790ddfc6e685"
+        },
+        "date": 1743708157615,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 16628.296871600938,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006545899604715651",
+            "extra": "mean: 60.13845000012452 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 656.925749752023,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002913923405768211",
+            "extra": "mean: 1.5222420499995337 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.669643980862073,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002747435467583293",
+            "extra": "mean: 85.69241714999833 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 63.358703076746586,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004396899354836609",
+            "extra": "mean: 15.783151349999969 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 21519.56074241241,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000009553224743216873",
+            "extra": "mean: 46.46935000067742 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1664.1259623537358,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000011008309079865858",
+            "extra": "mean: 600.9160499999666 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 113.15758489350443,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0037369056135569756",
+            "extra": "mean: 8.837233500000252 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 88.66710998447307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003460045024450416",
+            "extra": "mean: 11.278139100001285 msec\nrounds: 2"
           }
         ]
       }
