@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744981445305,
+  "lastUpdate": 1744981601246,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -29288,6 +29288,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.006240862437483759",
             "extra": "mean: 13.005271849999644 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4d352c82a1f2dd1fe20018ffce5eae380cce30f1",
+          "message": "Export to pyvis (#376)\n\n* docs: update docs and README\n\n* feat: allow method chaining, add .add/.extend method to DAGNode\n\n* test: add more test for coverage\n\n* test: add more test for coverage\n\n* docs: update README\n\n* docs: update README and docs\n\n* feat: add pyvis integration\n\n* feat: add pyvis integration",
+          "timestamp": "2025-04-18T21:05:42+08:00",
+          "tree_id": "79591097cc19ae4b66e4cb23ad8b7b4c8164e184",
+          "url": "https://github.com/kayjan/bigtree/commit/4d352c82a1f2dd1fe20018ffce5eae380cce30f1"
+        },
+        "date": 1744981600573,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 15889.283472738016,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000021309369932333623",
+            "extra": "mean: 62.935500000094194 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 660.7527314940755,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000014264960067433391",
+            "extra": "mean: 1.5134254499997724 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.64084108820567,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003515461548573417",
+            "extra": "mean: 85.90444559999924 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 61.71824126811693,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0052538970051561615",
+            "extra": "mean: 16.202665199998023 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 20135.207921338,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003598112856589841",
+            "extra": "mean: 49.66424999963692 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1584.9381426467176,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00005267881880464399",
+            "extra": "mean: 630.9394499965036 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 144.48146958689574,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00013843015313241396",
+            "extra": "mean: 6.921302800000717 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 79.11169965995956,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005944929834990593",
+            "extra": "mean: 12.640355400000658 msec\nrounds: 2"
           }
         ]
       }
