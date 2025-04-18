@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744999952878,
+  "lastUpdate": 1745000084077,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -29676,6 +29676,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.008500859148760895",
             "extra": "mean: 14.718298449999878 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe54a2ae16a1279f7c62b0cb27b9ae6a93e71190",
+          "message": "Fix article links (#378)\n\n* docs: update docs and README\n\n* feat: allow method chaining, add .add/.extend method to DAGNode\n\n* test: add more test for coverage\n\n* test: add more test for coverage\n\n* docs: update README\n\n* docs: update README and docs\n\n* feat: add pyvis integration\n\n* feat: add pyvis integration\n\n* fix: reingold tilford algo fix, bump version\n\n* fix: merge conflict\n\n* docs: update article link to medium\n\n* docs: update article link to medium",
+          "timestamp": "2025-04-19T02:13:46+08:00",
+          "tree_id": "114a2e2d719c6c8609271b24fd397297cabd7072",
+          "url": "https://github.com/kayjan/bigtree/commit/fe54a2ae16a1279f7c62b0cb27b9ae6a93e71190"
+        },
+        "date": 1745000083252,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 14815.813510411868,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001297420735329505",
+            "extra": "mean: 67.49544999991032 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 658.2518384650904,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000032722073410554604",
+            "extra": "mean: 1.5191753999985735 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.550346514062715,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004583595061216587",
+            "extra": "mean: 86.57748914999956 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 57.726165364931234,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00569755383089308",
+            "extra": "mean: 17.323166949999802 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 21561.970720567155,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001174575074696056",
+            "extra": "mean: 46.37795000093092 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1683.5708402826472,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000023281207926328075",
+            "extra": "mean: 593.9756000003626 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 148.51259916658498,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001494388864758808",
+            "extra": "mean: 6.733435450000513 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 77.93388693019652,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005760224280647387",
+            "extra": "mean: 12.831388750001338 msec\nrounds: 2"
           }
         ]
       }
