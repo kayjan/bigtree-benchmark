@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744999470403,
+  "lastUpdate": 1744999798654,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -29520,6 +29520,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007142890203263477",
             "extra": "mean: 13.557105499999977 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c96dedc8c235c5578fe061a5fd7393c215515a7d",
+          "message": "Fix reingold tilford edge case (#377)\n\n* docs: update docs and README\n\n* feat: allow method chaining, add .add/.extend method to DAGNode\n\n* test: add more test for coverage\n\n* test: add more test for coverage\n\n* docs: update README\n\n* docs: update README and docs\n\n* feat: add pyvis integration\n\n* feat: add pyvis integration\n\n* fix: reingold tilford algo fix, bump version\n\n* fix: merge conflict",
+          "timestamp": "2025-04-19T02:08:58+08:00",
+          "tree_id": "7b23d85b0ce45fad9515cd229f603e4ebfedb088",
+          "url": "https://github.com/kayjan/bigtree/commit/c96dedc8c235c5578fe061a5fd7393c215515a7d"
+        },
+        "date": 1744999798040,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 14391.823141959181,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000015605988082646973",
+            "extra": "mean: 69.48389999905658 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 642.5731714133466,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003214083163354546",
+            "extra": "mean: 1.556243000000279 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 11.430101481550247,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005826257235274363",
+            "extra": "mean: 87.4882870999997 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 56.27501125289119,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0065327034373074055",
+            "extra": "mean: 17.769876500000237 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 21212.169422118746,
+            "unit": "iter/sec",
+            "range": "stddev: 7.268350609823468e-7",
+            "extra": "mean: 47.14274999884083 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1458.0716550340906,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007125493820853656",
+            "extra": "mean: 685.8373500008952 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 152.57675398403424,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004288312714192275",
+            "extra": "mean: 6.55407834999977 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 70.52692996767954,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007629907594644304",
+            "extra": "mean: 14.178980999999167 msec\nrounds: 2"
           }
         ]
       }
