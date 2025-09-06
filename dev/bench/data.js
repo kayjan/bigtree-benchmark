@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757118971709,
+  "lastUpdate": 1757122302046,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -34316,6 +34316,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00015238292555951437",
             "extra": "mean: 8.38798679999826 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "70e21574cdabe9d6506986240f6edd690f1eef9a",
+          "message": "Misc refactor (#396)\n\n* feat: construct trees with nested_dict_key_to_tree\n\n* refactor: test clean up\n\n* feat: export trees with tree_to_nested_dict_key\n\n* feat: add docs\n\n* docs: update CHANGELOG\n\n* docs: enhance docstring\n\n* refactor: abstract out export tree logic\n\n* docs: update CHANGELOG",
+          "timestamp": "2025-09-06T09:30:35+08:00",
+          "tree_id": "cf0f6abb69b7737f849e1fbf1363da2c5521cd5d",
+          "url": "https://github.com/kayjan/bigtree/commit/70e21574cdabe9d6506986240f6edd690f1eef9a"
+        },
+        "date": 1757122301214,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 17910.634887163924,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000843755166550386",
+            "extra": "mean: 55.83275000020649 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 474.2073410900743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000026154041358490103",
+            "extra": "mean: 2.108782199999837 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 14.4717786152749,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001565230357738695",
+            "extra": "mean: 69.10000674999992 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 86.5160980006076,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000010237562689915989",
+            "extra": "mean: 11.558542550000084 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 25892.682598418574,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001513986328607695",
+            "extra": "mean: 38.62095000002341 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1738.1384867057432,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003844758772467143",
+            "extra": "mean: 575.3281499998764 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 159.01619984691766,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009789674182434986",
+            "extra": "mean: 6.288667449999962 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 123.13099160022385,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010524520762529311",
+            "extra": "mean: 8.1214322000001 msec\nrounds: 2"
           }
         ]
       }
