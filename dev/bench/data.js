@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757615295690,
+  "lastUpdate": 1757615493523,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -36168,6 +36168,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00014830942481303577",
             "extra": "mean: 7.829897899999595 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00f88a5f3d1dda15949b2a5df939ea47ef11da33",
+          "message": "Upgrade Python min version to >=3.10 (#403)\n\n* feat: nested_key_dict to tree to support child_key=None\n\n* feat: tree to nested_key_dict to support child_key=None\n\n* feat: use ruff in precommit, remove black flake8 isort\n\n* fix: use | instead of Union\n\n* fix: use | instead of Optional\n\n* fix: use | instead of Optional\n\n* fix: redundant ruff\n\n* fix: add black\n\n* fix: add flake8 and isort\n\n* feat: upgrade type annotation to Python 3.10",
+          "timestamp": "2025-09-12T02:30:28+08:00",
+          "tree_id": "811166dff9fb5637a1eb6117903247edf58f8ee5",
+          "url": "https://github.com/kayjan/bigtree/commit/00f88a5f3d1dda15949b2a5df939ea47ef11da33"
+        },
+        "date": 1757615492108,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 18896.2867847434,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005929585336496917",
+            "extra": "mean: 52.92045000118151 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 468.154383271092,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004266965161741672",
+            "extra": "mean: 2.1360474999994494 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 14.616505506282905,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002179614933710047",
+            "extra": "mean: 68.41580564999958 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 89.1030053909124,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016052695720123519",
+            "extra": "mean: 11.222965999999701 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 26424.756826558256,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004713998066103541",
+            "extra": "mean: 37.843299999451574 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1904.8968803117752,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012552135313591508",
+            "extra": "mean: 524.9628000001394 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 110.8232956241532,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004755833898744402",
+            "extra": "mean: 9.023373600000184 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 125.9221023712663,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00016426062242718702",
+            "extra": "mean: 7.941417599998602 msec\nrounds: 2"
           }
         ]
       }
