@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757526186628,
+  "lastUpdate": 1757574289644,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -35556,6 +35556,82 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017368472947504207",
             "extra": "mean: 7.850207650000129 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "kayjan",
+            "username": "kayjan"
+          },
+          "committer": {
+            "name": "kayjan",
+            "username": "kayjan"
+          },
+          "id": "6fad191c9ec99eb7b3bfa0981a9293afd1c17d37",
+          "message": "Add ruff as linter",
+          "timestamp": "2025-09-11T01:16:15Z",
+          "url": "https://github.com/kayjan/bigtree/pull/402/commits/6fad191c9ec99eb7b3bfa0981a9293afd1c17d37"
+        },
+        "date": 1757574288745,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 18329.974365279413,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000029556356348000468",
+            "extra": "mean: 54.55545000074835 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 447.2009613568666,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012018913163045983",
+            "extra": "mean: 2.2361311499999204 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 14.449295628482162,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004801438892122013",
+            "extra": "mean: 69.20752579999956 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 83.00008453558804,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002658222279867601",
+            "extra": "mean: 12.048180499999717 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 25082.20693317776,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000036102043822925146",
+            "extra": "mean: 39.86890000007293 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1840.787695144975,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000029513505676027212",
+            "extra": "mean: 543.2456999997726 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 93.32293834009188,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006536248234312806",
+            "extra": "mean: 10.715479150000107 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 119.08754031008993,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002787199970984715",
+            "extra": "mean: 8.39718410000003 msec\nrounds: 2"
           }
         ]
       }
