@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757578331873,
+  "lastUpdate": 1757579399030,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -35936,6 +35936,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00018982748231523487",
             "extra": "mean: 8.003802399999671 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7501fd71f009dcf14e6c14e06787b012894e2df1",
+          "message": "Add ruff as linter + Remove support for Python 3.8 and 3.9 (#402)\n\n* feat: nested_key_dict to tree to support child_key=None\n\n* feat: tree to nested_key_dict to support child_key=None\n\n* feat: add ruff\n\n* feat: add ruff\n\n* docs: update CHANGELOG\n\n* feat: add exclusions\n\n* Remove support for 3.8, 3.9\n\n* Remove support for 3.8, 3.9\n\n* Update CHANGELOG.md\n\n* Upgrade version\n\n* Upgrade version",
+          "timestamp": "2025-09-11T16:28:59+08:00",
+          "tree_id": "df89d0741893019ce917f0fae1b81f6a801e923a",
+          "url": "https://github.com/kayjan/bigtree/commit/7501fd71f009dcf14e6c14e06787b012894e2df1"
+        },
+        "date": 1757579398205,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 18561.15762241869,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004790436309696392",
+            "extra": "mean: 53.87594999959334 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 441.6008880065013,
+            "unit": "iter/sec",
+            "range": "stddev: 3.0547013464889027e-8",
+            "extra": "mean: 2.264488199999448 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 14.620064851274366,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012964562416705236",
+            "extra": "mean: 68.39914939999971 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 86.32996475393534,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010898262051774681",
+            "extra": "mean: 11.583463550000062 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 26370.577818406007,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004811649513882318",
+            "extra": "mean: 37.9210500007332 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1831.0132259569407,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000020096116142898476",
+            "extra": "mean: 546.1457000002667 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 106.66677816900658,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00507180498818333",
+            "extra": "mean: 9.3749901999999 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 125.48846778235377,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001228587425724697",
+            "extra": "mean: 7.968859750000234 msec\nrounds: 2"
           }
         ]
       }
