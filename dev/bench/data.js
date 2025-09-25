@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758815175823,
+  "lastUpdate": 1758815267266,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -37248,6 +37248,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004860449074233314",
             "extra": "mean: 8.43371014999974 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fa50586ea2131c4195d6d98926597a342dc86a96",
+          "message": "RTD to use Python 3.10 (#408)\n\n* feat: nested_key_dict to tree to support child_key=None\n\n* feat: tree to nested_key_dict to support child_key=None\n\n* fix: rtd python issue\n\n* bump: v0.31.2",
+          "timestamp": "2025-09-25T23:46:36+08:00",
+          "tree_id": "793dea4ede9c7236f909b63e29306e90a53fba07",
+          "url": "https://github.com/kayjan/bigtree/commit/fa50586ea2131c4195d6d98926597a342dc86a96"
+        },
+        "date": 1758815266214,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 18940.218986909043,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000017902529485175662",
+            "extra": "mean: 52.797699999729275 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 435.4945855394223,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000828856426769497",
+            "extra": "mean: 2.296239799999711 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 14.440028965167407,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001451497181618794",
+            "extra": "mean: 69.25193865000026 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 87.22067638352203,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012580624647685356",
+            "extra": "mean: 11.465171350000247 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 25277.06826471292,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004220791088877952",
+            "extra": "mean: 39.561549999689305 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1817.5752437531671,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000028229329049720055",
+            "extra": "mean: 550.183549999872 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 94.38259031575035,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006713387392543654",
+            "extra": "mean: 10.595174350000036 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 125.55514836626152,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00019261291734703524",
+            "extra": "mean: 7.9646275999998295 msec\nrounds: 2"
           }
         ]
       }
