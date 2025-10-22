@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761147600770,
+  "lastUpdate": 1761147689544,
   "repoUrl": "https://github.com/kayjan/bigtree",
   "entries": {
     "Benchmark": [
@@ -38944,6 +38944,86 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000044516473094017756",
             "extra": "mean: 7.796321300000386 msec\nrounds: 2"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kayjanw@gmail.com",
+            "name": "Kay Jan W.",
+            "username": "kayjan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3ee174476b5bc6e2a26b4903b85420bc666d578f",
+          "message": "Migrate more functions to plugin (#415)\n\n* feat: nested_key_dict to tree to support child_key=None\n\n* feat: tree to nested_key_dict to support child_key=None\n\n* refactor: enable plugin - retains docstrings, help, and suggestions\n\n* docs: update CHANGELOG\n\n* refactor: migrate more methods to plugin\n\n* test: fix codecov\n\n* refactor: more clean up",
+          "timestamp": "2025-10-22T15:40:06Z",
+          "tree_id": "75add13fd1b507b4720f163386f80b395edc2f42",
+          "url": "https://github.com/kayjan/bigtree/commit/3ee174476b5bc6e2a26b4903b85420bc666d578f"
+        },
+        "date": 1761147688329,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10",
+            "value": 18508.356060338083,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000611739289503187",
+            "extra": "mean: 54.029649999165485 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100",
+            "value": 434.51570270200597,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010575856714870651",
+            "extra": "mean: 2.301412800001401 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000",
+            "value": 14.59400563929745,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001013832025202512",
+            "extra": "mean: 68.52128364999999 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10",
+            "value": 88.94656658647702,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002069284355542598",
+            "extra": "mean: 11.242704900000433 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_10_no_assertions",
+            "value": 26834.29154053401,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000004031003628177286",
+            "extra": "mean: 37.26575000086996 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_100_no_assertions",
+            "value": 1943.9994035787154,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00002104328567503197",
+            "extra": "mean: 514.4034500006001 usec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_1_depth_1000_no_assertions",
+            "value": 106.07533992533196,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005475655449805974",
+            "extra": "mean: 9.427261799999087 msec\nrounds: 2"
+          },
+          {
+            "name": "tests/node/test_node_benchmark.py::test_node_benchmark_width_2_depth_10_no_assertions",
+            "value": 128.47072743411366,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010699607472660863",
+            "extra": "mean: 7.783874349998143 msec\nrounds: 2"
           }
         ]
       }
